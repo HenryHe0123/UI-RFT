@@ -2,7 +2,7 @@ import io
 import json
 import base64
 
-PROMPT = """This is an interface to a GUI and you are going to perform click action to {instruction}.
+PROMPT = """You are specialize in GUI grounding. This is an interface to a GUI and you are going to perform click action to {instruction}.
 Output exactly one line containing a single JSON object in the following format:
 {{"point_2d": [x, y], "label": "object name/description"}}"""
 
@@ -62,7 +62,7 @@ def get_grounding_messages(instruction, base64_image):
     messages = [
         {
             "role": "system", 
-            "content": "You are a helpful assistant specialize in GUI grounding."
+            "content": "You are a helpful assistant."
         },
         {
             "role": "user",
