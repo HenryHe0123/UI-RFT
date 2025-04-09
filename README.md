@@ -1,6 +1,6 @@
 # UI-RFT: Reinforcement Fine-Tuning for GUI Grounding
 
-<font size=4><div align='center' > [[📖 Paper](https://arxiv.org/abs/2412.17589)] [[🤗 Checkpoints](https://huggingface.co/henryhe0123/UI-RFT-3B)] [[🤗 Datasets](https://huggingface.co/datasets/henryhe0123/UI-128)]</div></font>
+<font size=4><div align='center' > [[📖 Poster](./poster.pdf)] [[🤗 Checkpoints](https://huggingface.co/henryhe0123/UI-RFT-3B)] [[🤗 Datasets](https://huggingface.co/datasets/henryhe0123/UI-128)]</div></font>
 
 ## 🔥 Overview
 
