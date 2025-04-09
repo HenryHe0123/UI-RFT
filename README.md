@@ -12,6 +12,11 @@ This work is the course project of CS3316 Reinforcement Learning.
   <img src="assets/benchmark.png" alt="ben" >
 </a>
 
+## Takeaway
+
+- Reinforced fine-tuning with only 128 high-quality samples significantly enhances GUI grounding.
+- GUI grounding is a fundamental visual ability in VLMs, improved without needing long reasoning chains.
+
 ## Usage
 
 ### Training
