@@ -12,4 +12,30 @@ This work is the course project of CS3316 Reinforcement Learning.
   <img src="assets/benchmark.png" alt="ben" >
 </a>
 
-飞书文档：https://yaf2qum85lq.feishu.cn/wiki/JDJOw9pcPiFTSJkUHbIcqBwpnXc
+## Usage
+
+### Training
+
+To train VLM with verl:
+
+```bash
+./train.sh
+```
+
+### Evaluation
+
+To test VLM on ScreenSpot:
+
+```bash
+python ./screenspot/test.py
+```
+
+To test VLM on ScreenSpot-Pro:
+
+```bash
+python ./screenspot/test-pro.py
+```
+
+## Acknowledgement
+
+We would like to express our sincere gratitude to Yan Ma for his invaluable and highly insightful discussions.
